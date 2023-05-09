@@ -11,11 +11,11 @@ jobs:
     # if: startsWith(github.ref, 'refs/tags/v')
 
     env:
-      DOCKER_USER: smontrimewo
-      GIT_USER: smontri-mewo
+      DOCKER_USER: david57
+      GIT_USER: chauvet57
       CONTAINER_REGISTRY: docker.io
-      CONTAINER_IMAGE: smontrimewo/hello-kubernetes
-      GIT_REPOSITORY: git@github.com:smontri-mewo/hello-kubernetes.git
+      CONTAINER_IMAGE: david57/hello-kubernetes
+      GIT_REPOSITORY: git@github.com:chauvet57/hello-kubernetes.git
       CD_CHART_REPO: deploy/helm/hello-kubernetes
       CD_MANIFEST_FILE: Chart.yaml
 

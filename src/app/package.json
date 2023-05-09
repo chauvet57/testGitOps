@@ -1,8 +1,8 @@
 {
   "name": "hello-kubernetes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hello Kubernetes!",
-  "author": "Stéphane Montri",
+  "author": "David",
   "license": "MIT",
   "main": "server.js",
   "scripts": {
